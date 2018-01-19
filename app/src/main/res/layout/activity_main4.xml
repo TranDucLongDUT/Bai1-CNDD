@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.trnclong.bai1.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <TextView
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Button 1"
+            android:background="#cabebe"
+            android:textColor="#f000"
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_weight="2"
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Button 2"
+            android:background="#cabebe"
+            android:textColor="#f000"
+            android:gravity="left"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingBottom="0dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_gravity="center"
+            android:background="@drawable/cancel"
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#f00"/>
+        <Button
+
+            android:background="@drawable/next"
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
